@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://taskify-dmte.onrender.com"
+  baseURL: "https://taskify-dmte.onrender.com/api"
 });
 
 export const getTasks = () => API.get("/tasks");
